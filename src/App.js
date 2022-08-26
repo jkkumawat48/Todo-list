@@ -1,14 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import RestApi from './Component2/RestApi';
-
+// import RestApi from './Component2/RestApi';
+import Newcovid from './Component/Newcovid';
 function App() {
   return (
     <div className="App">
-     {/* <Covid/> */}
-<RestApi/>
+  <Newcovid/>
+{/* <NewApi/> */}
     </div>
   );
 }
+
 
 export default App;
