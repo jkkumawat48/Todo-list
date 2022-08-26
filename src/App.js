@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import ToDoo from './Component/ToDoo';
+import RestApi from './Component2/RestApi';
+
 function App() {
   return (
     <div className="App">
-      <ToDoo/>
+     {/* <Covid/> */}
+<RestApi/>
     </div>
   );
 }
